@@ -118,7 +118,7 @@ func runAgent(ctx context.Context,
 	inputFilters []string,
 	outputFilters []string,
 ) error {
-	log.Printf("I! Starting Telegraf %s", version)
+	log.Printf("I! Starting ELI's very special very custom Telegraf %s", version)
 
 	// If no other options are specified, load the config file and run.
 	c := config.NewConfig()
